@@ -29,12 +29,10 @@ wsseHeaderDefinition = function() {
     WsseHeader.prototype.generateNonce = function() {
       var nonce;
       nonce = Math.random().toString(36).substring(2);
-      nonce = "3710b69d4dbbe4ff087fa41418cbc5c0";
       return CryptoJS.enc.Utf8.parse(nonce).toString(CryptoJS.enc.Base64);
     };
 
     WsseHeader.prototype.generateCreatedDate = function() {
-      return "2015-04-20T09:44:57.149Z";
       return new Date().toISOString();
     };
 
