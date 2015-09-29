@@ -23,7 +23,7 @@ And in your html file:
 ## Usage
 
 ``` js
-var header = new WsseHeader();
+var wsseHeader = new WsseHeader();
 
 wsseHeader.buildWsseHeader("cyrille", "BwWNPWAuOcuzI+WeMPQL4PVnqe76irLVBEQDSD25U57gscun/5k+mKo0a+9NA6nanK1utxQELgDA2XomHm0bOg==", "f5hdgfd6jjkfd7oj4f6jbfl2dj")
 // UsernameToken Username="cyrille", PasswordDigest="kmsaFE3ehpSesjwxrEsWf1p+zbM=", Nonce="NGhtaG10em5peWtmYnQ5", Created="2015-09-29T07:43:54.007Z"
